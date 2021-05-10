@@ -1,0 +1,78 @@
+body {
+	font: 1em/150% Arial, Helvetica, sans-serif;
+	margin:0 0 0 0;
+	background:rgb(200, 240, 253);
+}
+
+header {
+	background:#6959CD
+}
+
+main {
+
+	background:#fff;
+
+}
+
+aside {
+	background:#0c6;
+}
+
+footer {
+	clear:both;
+	}
+	
+section {
+	margin:auto;
+}
+	
+main {
+	background-color:#06c;
+}
+
+aside {
+	background-color:#fcf;
+}
+
+footer {
+	background-color:#fc3;
+}
+nav {
+	background:#00FF00;
+}
+
+.nav2{
+	background: rgb(172, 175, 173);
+}
+
+
+
+@media screen and (max-width:360px) {
+	section {width:100%;}
+	header {height:40px;}
+	main {height:530px}
+	nav {display:none}
+	.nav2 {display:none}
+	aside {display:none;}
+	footer {height:70px}
+}
+ 
+@media screen and (min-width:361px) and (max-width:768px) {
+	section {width:100%;}
+	header {height:40px}
+	main {width:100%; height:700px; float:none;}
+	aside {display:none}
+	nav {width:100%; height:100px}
+	.nav2 {height:40px}
+	footer {height:144px}
+}
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+	section {width:80%;}
+	header {height:100px}
+	aside {height:800px; width:20%; float: left}
+	main {height: 760px; width:80%; float:right; float:bottom}
+	nav {height:40px; width:80%; float:right; float:top}
+	.nav2{display: none;}
+	footer {display:none;}
+}

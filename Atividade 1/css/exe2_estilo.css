@@ -1,0 +1,62 @@
+body {
+	font: 1em/150% Arial, Helvetica, sans-serif;
+	margin:2 2 2 2;
+	background:#fff;
+	font-family: 'Prompt', sans-serif;
+}
+
+header {
+	background:#6959CD;
+	font-height:900;
+}
+
+main {
+
+	background:#fff;
+
+}
+
+aside {
+	background:#0c6;
+}
+
+footer {
+	clear:both;
+	}
+	
+section {
+	margin:auto;
+}
+	
+main {
+	background-color:#06c;
+}
+
+aside {
+	background-color:#fcf;
+}
+
+footer {
+	background-color:#fc3;
+}
+
+
+
+@media screen and (max-width:360px) {
+	section {width:100%;}
+	header {height:100px; font-size:20px; line-height: 100px; padding-left:60px;}
+	main {height:50px}
+	aside {height:200px; width:100%; margin:10px 0px 10px 0px}
+	div {text-align: center}
+	footer {display:none}
+}
+ 
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+	section {width:80%;}
+	header {height:150px; font-size:35px; line-height: 140px; padding-left:50px;}
+	aside {height:800px; width:20%; float: left; margin-top:-450px}
+	main {height: 400px; width:50%; margin:25px 25px 25px 230px}
+	div {text-align: center;}
+	footer {display:none;}
+}
